@@ -1,0 +1,45 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 2px; 
+}
+
+body{
+    text-align: center;
+    background: #00bcc5;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+}
+.h1{
+    color: var(--base);
+}
+.controls{
+    margin-bottom: 50px;
+}
+a{
+    color: red;
+}
+input{ 
+    width: 100px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background: var(--base);
+    height: 4px;
+    border-radius: 92px;
+    vertical-align: middle;
+}
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+}
+img{
+    width: 50%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
